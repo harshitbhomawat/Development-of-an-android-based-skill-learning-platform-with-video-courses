@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Skillz_Minor" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#6D9773</item>
+        <item name="colorPrimaryVariant">#0C3B2E</item>
+        <item name="colorOnPrimary">#FFE7D0</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#FFBA00</item>
+        <item name="colorSecondaryVariant">#B46617</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/black</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

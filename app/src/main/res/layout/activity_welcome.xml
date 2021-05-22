@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity"
+    android:id="@+id/googleSignIn"
+    android:background="@drawable/background">
+    <TextView
+        android:id="@+id/signUpText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:height="21dp"
+        android:text="You are not a member?"
+        android:textColor="#3C3A3A"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.959" />
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textColor="#ffffff"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.313"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.087" />
+
+    <Button
+        android:id="@+id/weltologin"
+        android:layout_width="172dp"
+        android:layout_height="64dp"
+        android:width="160sp"
+        android:height="53sp"
+        android:background="#f4172a"
+        android:text="Log In"
+        android:textColor="#ffffff"
+        android:textColorHighlight="#ffffff"
+        android:textColorLink="#ffffff"
+        android:textSize="16sp"
+        app:backgroundTint="#f4172a"
+        app:cornerRadius="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.267"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeText2"
+        app:layout_constraintVertical_bias="0.142"
+        app:rippleColor="#F4172A" />
+
+    <TextView
+        android:id="@+id/welcomeText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Good to see you again!"
+        android:textColor="#707070"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/welcomeText"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeText"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/weltoregister"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="0dp"
+        android:padding="0dp"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        android:text="Register"
+        android:textColor="#F4172A"
+        android:textColorHint="#F4ECEC"
+        android:textColorLink="#F6F1F2"
+        app:iconPadding="0dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/signUpText"
+        app:layout_constraintStart_toEndOf="@+id/signUpText"
+        app:rippleColor="#F8F6F6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Skillz_Minor</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_account">Account</string>
+    <string name="title_search">Search</string>
+    <string-array name="genders">
+        <item>|Male|</item>
+        <item>|Female|</item>
+        <item>|Other|</item>
+    </string-array>
+    <string-array name="personal_details">
+        <item>Name:</item>
+        <item>Mob. number:</item>
+        <item>Email address:</item>
+        <item>Gender:</item>
+    </string-array>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="courses_enrolled">Courses Enrolled</string>
+
+    <string name="signout">Signout</string>
+    <string name="name">Name</string>
+    <string name="courses_completed">Courses Completed</string>
+    <string name="profile">Profile</string>
+    <string name="shareapp">ShareApp</string>
+    <string name="rate_our_app">Rate our App</string>
+    <string name="enroll">Enroll</string>
+    <string name="top_courses">Top Courses</string>
+    <string name="new_courses">New Courses</string>
+    <string name="electrical_course_image">electrical course image</string>
+    <string name="embroidery_course_image">embroidery course image</string>
+    <string name="music_course_image">music course image</string>
+    <string name="skills_logo">skills logo</string>
+    <string name="ribbon_course_image">ribbon course image</string>
+    <string name="textview">TextView</string>
+    <string name="title">Title</string>
+    <string name="someone_gmail_com">someone@gmail.com</string>
+    <string name="hello_there">Hello There!</string>
+    <string name="password">********</string>
+    <string name="log_in">Log In</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="backbtn">backbtn</string>
+</resources>

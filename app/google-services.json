@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "963862114879",
+    "firebase_url": "https://skill-minor.firebaseio.com",
+    "project_id": "skill-minor",
+    "storage_bucket": "skill-minor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963862114879:android:060ba6ec92beccf7d93e8a",
+        "android_client_info": {
+          "package_name": "com.example.skillz_minor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963862114879-ua25tptmc3s68r66q797ccbm3vnav6q1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATRXaGJIpUnhasCvog015GWRMkYddUJN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963862114879-ua25tptmc3s68r66q797ccbm3vnav6q1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
